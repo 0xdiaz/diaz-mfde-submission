@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "368982180882",
-    "project_id": "diaz-submission-mfde-final",
-    "storage_bucket": "diaz-submission-mfde-final.appspot.com"
+    "project_number": "833684129072",
+    "project_id": "diaz-mfde-final",
+    "storage_bucket": "diaz-mfde-final.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:368982180882:android:3e3748f0d11df7fce944cb",
+        "mobilesdk_app_id": "1:833684129072:android:e15d3d2b0bea83fe12f4f5",
         "android_client_info": {
           "package_name": "com.dicoding.ditonton"
         }
       },
       "oauth_client": [
         {
-          "client_id": "368982180882-5el1b3obsbjvacsiovdet8lfj2pu9i59.apps.googleusercontent.com",
+          "client_id": "833684129072-jn5jlk3s871io68go2amvjmc1sue0i5f.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyB6vYRo1FPM5xlr-UGusHeli8V3Gc2B5Eo"
+          "current_key": "AIzaSyA4IMrL5bmVapwVEAeoQH7dx2CCC8QezC0"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "368982180882-5el1b3obsbjvacsiovdet8lfj2pu9i59.apps.googleusercontent.com",
+              "client_id": "833684129072-jn5jlk3s871io68go2amvjmc1sue0i5f.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
