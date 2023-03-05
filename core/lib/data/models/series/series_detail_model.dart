@@ -1,6 +1,6 @@
-import '../../../data/models/genre_model.dart';
-import '../../../data/models/series/season_model.dart';
-import '../../../domain/entities/series_detail.dart';
+import 'package:core/data/models/genre_model.dart';
+import 'package:core/data/models/series/season_model.dart';
+import 'package:core/domain/entities/series_detail.dart';
 import 'package:equatable/equatable.dart';
 
 class SeriesDetailResponse extends Equatable {
@@ -89,7 +89,7 @@ class SeriesDetailResponse extends Equatable {
         "overview": overview,
         "popularity": popularity,
         "poster_path": posterPath,
-        "seasons": List<SeasonModel>.from(seasons.map((x) => x.toJson())),
+        "seasons": List<dynamic>.from(seasons.map((x) => x.toJson())),
         "status": status,
         "tagline": tagline,
         "type": type,

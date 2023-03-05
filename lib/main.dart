@@ -1,8 +1,11 @@
-import 'package:core/core.dart';
 import 'package:about/about.dart';
+import 'package:core/core.dart';
 import 'package:core/presentation/pages/home_page.dart';
+import 'package:core/presentation/pages/watchlist_page.dart';
 import 'package:ditonton/firebase_options.dart';
+import 'package:ditonton/injection.dart' as di;
 import 'package:firebase_core/firebase_core.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:movies/presentation/blocs/detail/detail_movie_bloc.dart';
 import 'package:movies/presentation/blocs/now_playing/now_playing_movies_bloc.dart';
@@ -16,6 +19,7 @@ import 'package:movies/presentation/pages/popular_movies_page.dart';
 import 'package:movies/presentation/pages/search_movies_page.dart';
 import 'package:movies/presentation/pages/top_rated_movies_page.dart';
 import 'package:movies/presentation/pages/watchlist_movies_page.dart';
+import 'package:provider/provider.dart';
 import 'package:series/presentation/blocs/detail/detail_series_bloc.dart';
 import 'package:series/presentation/blocs/now_playing/now_playing_series_bloc.dart';
 import 'package:series/presentation/blocs/popular/popular_series_bloc.dart';
@@ -33,10 +37,6 @@ import 'package:series/presentation/pages/series_detail_page.dart';
 import 'package:series/presentation/pages/series_list_page.dart';
 import 'package:series/presentation/pages/top_rated_series_page.dart';
 import 'package:series/presentation/pages/watchlist_series_page.dart';
-import 'package:core/presentation/pages/watchlist_page.dart';
-import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
-import 'package:ditonton/injection.dart' as di;
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

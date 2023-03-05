@@ -2,6 +2,7 @@ name: series
 description: A new Flutter package project.
 version: 0.0.1
 homepage: dicoding.com
+publish_to: none
 
 environment:
   sdk: '>=2.19.3 <3.0.0'

@@ -26,6 +26,7 @@ import 'package:movies/presentation/blocs/top_rated/top_rated_movies_bloc.dart';
 import 'package:movies/presentation/blocs/watchlist/watchlist_movies_bloc.dart';
 import 'package:series/domain/usecases/get_now_playing_series.dart';
 import 'package:series/domain/usecases/get_popular_series.dart';
+import 'package:series/domain/usecases/get_season_detail.dart';
 import 'package:series/domain/usecases/get_series_detail.dart';
 import 'package:series/domain/usecases/get_series_recommendations.dart';
 import 'package:series/domain/usecases/get_top_rated_series.dart';
@@ -104,6 +105,7 @@ void init() {
   locator.registerLazySingleton(() => SaveWatchlistSeries(locator()));
   locator.registerLazySingleton(() => RemoveWatchlistSeries(locator()));
   locator.registerLazySingleton(() => GetWatchlistSeries(locator()));
+  locator.registerLazySingleton(() => GetSeasonDetail(locator()));
 
   // repository
   locator.registerLazySingleton<MovieRepository>(
